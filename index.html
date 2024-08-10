@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Papan Skor</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="header roboto-medium">Ping Pong Score Keeper</h1>
+      <h1 class="score roboto-light">
+        <span id="player1">0</span> to <span id="player2">0</span>
+      </h1>
+
+      <div class="roboto-light select-game">
+        <p>Playing to</p>
+
+        <select name="score" id="selectScore">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+        </select>
+      </div>
+
+      <div class="btn-player">
+        <button id="btnP1">Player One +1</button>
+        <button id="btnP2">Player Two +1</button>
+        <button id="reset">Reset Score</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
