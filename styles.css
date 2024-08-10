@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+}
+
+.container {
+  margin: 25px auto;
+  width: 500px;
+  padding: 20px;
+  background-color: rgb(202, 209, 219);
+  border-radius: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.header {
+  color: rgb(100, 71, 71);
+  margin-top: 0px;
+}
+
+.select-game {
+  margin: auto;
+  margin-bottom: 15px;
+  width: 50%;
+  text-align: center;
+}
+
+.select-game p {
+  display: inline;
+}
+
+.btn-player {
+  margin: auto;
+  width: 300px;
+}
+
+.winner {
+  color: rgb(0, 0, 255);
+}
+
+.loser {
+  color: red;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
